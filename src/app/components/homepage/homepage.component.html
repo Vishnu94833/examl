@@ -1,0 +1,45 @@
+<div class="container my-3">
+    <div>
+        <span class="fa fa-users logo"></span>
+        <span class="ml-2 sub-title">Employees</span>
+    </div>
+
+    <!-- <div class="filter-container my-3">
+        <div class="input-group mb-3 filter-width">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <span class="fa fa-filter"></span>
+                </div>
+            </div>
+            <input class="form-control " [(ngModel)]="vm.searchCustomer" type="text" (input)="onSearch()">
+        </div>
+    </div> -->
+
+
+
+    <div class="my-3">
+        <table class="table table-bordered">
+            <tr>
+                <th>Employee Id</th>
+                <th>User Name</th>
+                <th>Email</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr *ngFor='let users of vm.employeeList;let i = index'>
+
+                <td>{{users.employeeId}}</td>
+                <td>{{users.userName}}</td>
+                <td>{{users.email}}</td>
+                <th>
+                    <button mat-stroked-button color='primary' (click)='viewAttendance(users.employeeId)'>
+                        view attendance
+                    </button>
+                </th>
+                <td> <span class="far fa-edit" (click)="editCustomer(users)"></span></td>
+                <td><span class="fa fa-trash" (click)="deleteCustomer(users)"></span></td>
+            </tr>
+        </table>
+    </div>
+</div>

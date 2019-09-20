@@ -1,0 +1,25 @@
+<div class="container my-5">
+    <!-- <div class="my-4"> -->
+        <button class="btn btn-dark float-right" (click)='navigateTo()'>Back</button>
+    <!-- </div> -->
+    <div class="my-4">
+            <table class="table table-bordered">
+                    <tr>
+                        <th>Employee Id</th>
+                        <th>Date</th>
+                        <th>In Time</th>
+                        <th>Out Time</th>
+                        <th>Total Working Hours</th>
+                        <!-- <th></th> -->
+                    </tr>
+                    <tr *ngFor='let users of vm.attendanceList;let i = index'>
+        
+                        <td>{{users.employeeId}}</td>
+                        <td>{{users.date}}</td>
+                        <td>{{users.inTime}}</td>
+                        <td>{{users.outTime}}</td>
+                        <td>{{users.totalWorkingHrs}}</td>
+                    </tr>
+                </table>
+    </div>
+</div>

@@ -1,0 +1,65 @@
+{
+  "168901": [
+    {
+      "date": "18 Sep 2019",
+      "inTime": "08:30 AM",
+      "outTime": "18:25 PM",
+      "totalTime": "09  Hours",
+      "totalWorkingTime": 9,
+      "id": 1
+    },
+    {
+      "date": "20 Sep 2019",
+      "inTime": "08:56 AM",
+      "outTime": "20:50 PM",
+      "totalTime": "11  Hours",
+      "totalWorkingTime": 11,
+      "id": 2
+    },
+    {
+      "date": "21 Sep 2019",
+      "inTime": "08:30 AM",
+      "outTime": "21:30 PM",
+      "totalTime": "13  Hours",
+      "totalWorkingTime": 13,
+      "id": 3
+    }
+  ],
+  "168902": [
+    {
+      "date": "19 Sep 2019",
+      "inTime": "08:30 AM",
+      "outTime": "21:30 PM",
+      "totalTime": "13  Hours",
+      "totalWorkingTime": 13,
+      "id": 1
+    },
+    {
+      "date": "20 Sep 2019",
+      "inTime": "08:30 AM",
+      "outTime": "21:30 PM",
+      "totalTime": "13  Hours",
+      "totalWorkingTime": 13,
+      "id": 2
+    }
+  ],
+  "Register": [],
+  "Admin": [
+    {
+      "username": "VishnuKuppan",
+      "employeeId": "168902",
+      "email": "vishnu94833@gmail.com",
+      "role": "ADMIN",
+      "id": 1
+    }
+  ],
+  "Employees": [
+    {
+      "username": "vk38",
+      "employeeId": "168901",
+      "email": "vishnu@gmail.com",
+      "role": "USER",
+      "id": 1
+    }
+  ]
+}
